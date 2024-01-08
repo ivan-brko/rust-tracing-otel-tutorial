@@ -1,0 +1,12 @@
+[package]
+name = "tracing_otel_tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#actix
+actix-web = "4"
+
+# async
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
